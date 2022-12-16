@@ -6,7 +6,7 @@
 В основе всего приложения лежит класс **Centre** (центральный класс), от него наследуются практически все окна. Он обладает таким функционалом как открытие окна информации, переход на предыдущее и главное окно. В этом классе инициализирован звук нажатия, который издают все кнопки в приложении и подключение к базе данных. После идут классы всех остальных окон. Наполнение уроков заимствовано с https://www.ratatype.ru/ 
 ## Технологии
 В своем коде я использовала модули **smtplib**, **email** благодаря им происходит отправка пароля пользователю на почту, если он забыл его. А еще я использовала **QtMultimedia** для отображения гифки во время загрузки окон. Стоит так же упомянуть, что я использовала библиотеку **pyqtgraph** чтобы показывать пользователю его прогресс в окне статистики.
-
+![hippo](https://github.com/Darya-Tolmeneva/keyboard-trainer/blob/master/image/avatar.gif)
 ## Idea and functionality
 The main idea of the project is to create a keyboard simulator for everyone who wants to learn how to type with 10 fingers. But also this program is able to check the printing speed in the number of characters per minute and the number of words per minute, keep statistics and display it to the user, and if the user forgets the password (makes a mistake 3 times when entering), the program will send him his password by email.
 ## Implementation
