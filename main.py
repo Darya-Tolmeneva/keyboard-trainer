@@ -545,7 +545,7 @@ class End(QWidget, Centre):
         self.nick = args[1]
         uic.loadUi('design/end.ui', self)
         # добавление гифки
-        self.gif = QMovie('image/avatar.gif')
+        self.gif = QMovie('image/end.gif')
         self.initUI()
 
     def initUI(self):
